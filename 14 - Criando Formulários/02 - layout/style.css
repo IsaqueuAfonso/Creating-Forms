@@ -1,0 +1,248 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #bfd7e4;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*  */
+.background {
+  background: #293241;
+  height: 465px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
+/*  */
+.container {
+  width: 750px;
+  height: 100%;
+  color: white;
+}
+
+/*  */
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  margin-top: 107px;
+}
+header h1 {
+  font-family: "Staatliches", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 36px;
+}
+header p {
+  margin-bottom: 25px;
+  font-size: 16px;
+}
+header img {
+  margin-bottom: 32px;
+}
+
+/*  */
+form {
+  color: #4e4958;
+}
+.form1 {
+  background: #f67669;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 133px;
+
+  border-radius: 18px 18px 0 0;
+}
+.form1 legend {
+  font-family: "Staatliches", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  color: #fff;
+}
+
+/*  */
+.container-form {
+  height: 1208px;
+  background: #ffffff;
+  border-radius: 18px;
+  margin-bottom: 30px;
+}
+
+/*  */
+.container-conteudo {
+  padding: 32px 64px;
+}
+
+/*  */
+fieldset {
+  border: 0;
+}
+.container-name {
+  display: flex;
+  gap: 22px;
+}
+.fast-name,
+.last-name {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+}
+.fast-name input,
+.last-name input,
+.container-email input,
+fieldset.conteudo-two select,
+.conteiner-mentor textarea {
+  width: 300px;
+  height: 56px;
+  border: 1px solid #e6e6f0;
+  background: #fafafc;
+  border-radius: 8px;
+}
+.container-email {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 23px;
+
+  font-size: 14px;
+}
+.container-email label span {
+  font-size: 12px;
+  color: #c1bccc;
+}
+.container-email input {
+  width: 622px;
+  height: 56px;
+}
+/*  */
+fieldset.conteudo-two {
+  margin-top: 32px;
+}
+fieldset.conteudo-two div.legend {
+  padding-bottom: 8px;
+  border-bottom: 1px solid #e6e6f0;
+  margin-bottom: 40px;
+
+  font-family: "Staatliches", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  text-align: center;
+
+  color: #253b51;
+}
+.conteudo-two .conteiner-mentor {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+}
+.conteudo-two .conteiner-mentor label {
+  margin-bottom: 15px;
+}
+.conteiner-mentor.textarea {
+  margin-top: 32px;
+  margin-bottom: 30px;
+}
+.conteiner-mentor textarea {
+  width: 608px;
+  height: 167px;
+}
+.checkbox {
+  position: relative;
+}
+.checkbox label {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin: 0;
+}
+.checkbox input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 24px;
+  height: 24px;
+  opacity: 0;
+}
+.conteiner-mentor.checkbox label::before {
+  content: "";
+  width: 24px;
+  height: 24px;
+  display: block;
+
+  border: 1px solid #e6e6f0;
+  border-radius: 8px;
+}
+.checkbox input:checked + label::before {
+  background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg clip-path='url(%23clip0_5016_23)'%3E%3Cpath d='M9 16.17L4.83 12L3.41 13.41L9 19L21 7L19.59 5.59L9 16.17Z' fill='%2342D3FF'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_5016_23'%3E%3Crect width='24' height='24' fill='white'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E%0A");
+}
+.checkbox input:focus + label::before {
+  outline: 2px solid black;
+}
+/*  */
+.conteiner-mentor.data {
+  display: flex;
+  flex-direction: row;
+}
+.data .container-agendar {
+  display: flex;
+  flex-direction: column;
+}
+.container-agendar input {
+  border: 1px solid #e6e6f0;
+  background: #fafafc;
+  border-radius: 8px;
+  height: 56px;
+}
+.container-agendar.date input {
+  width: 300px;
+}
+.container-agendar.time input {
+  width: 140px;
+}
+.container-agendar.time {
+  margin-right: 10px;
+}
+.container-agendar.date {
+  margin-right: 32px;
+}
+/*  */
+.button {
+  margin-top: 64px;
+  width: 100%;
+  height: 51px;
+
+  font-family: "Staatliches", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  color: #ffffff;
+
+  background: #f67669;
+
+  border: 0;
+  border-radius: 8px;
+}
+.button:hover {
+  background: #e97265;
+  color: #e1e1e1;
+}

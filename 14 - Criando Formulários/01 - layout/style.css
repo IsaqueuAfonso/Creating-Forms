@@ -1,0 +1,169 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #e5e5e5;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+.container {
+  background: #535971;
+  width: 100%;
+  height: 436px;
+  color: #fff;
+}
+.container-form {
+  width: 750px;
+  height: 1084px;
+  margin: auto;
+}
+header {
+  padding-top: 140px;
+  width: 100%;
+}
+header h1 {
+  font-family: "Staatliches", sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  margin-bottom: 18px;
+}
+header p {
+  width: 417px;
+  font-size: 20px;
+  margin-bottom: 58px;
+}
+
+/*  */
+form {
+  background: #fff;
+  height: 1084px;
+  border-radius: 20px 20px 0 0;
+  display: flex;
+  flex-direction: column;
+  padding: 64px;
+}
+
+fieldset {
+  border: 0;
+  width: 622px;
+}
+fieldset legend {
+  color: #535971;
+
+  font-family: "Staatliches", sans-serif;
+  font-size: 24px;
+  line-height: 34px;
+
+  border-bottom: 1px solid #e6e6f0;
+
+  padding-bottom: 18px;
+  margin-bottom: 34px;
+}
+
+.container-dados {
+  display: flex;
+  gap: 22px;
+  margin-bottom: 16px;
+}
+
+.container-dados div {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+}
+
+.container-dados div input {
+  width: 300px;
+  height: 56px;
+  border-radius: 8px;
+  background: #fafafc;
+  border: 1px solid #e6e6f0;
+}
+
+label {
+  color: #4e4958;
+}
+
+.container-dados.one span {
+  color: #c1bccc;
+  font-size: 12px;
+}
+
+.container-dados.one span:hover {
+  color: #96929e;
+}
+
+.container-dados.one input {
+  width: 622px;
+  margin-top: 8px;
+}
+/*  */
+
+.container-dados.horario {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-dados.horario .titulo {
+  color: #535971;
+  font-family: "Staatliches", sans-serif;
+  font-size: 20px;
+  line-height: 34px;
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.container-dados.horario .agendamento {
+  display: flex;
+  flex-direction: row;
+}
+
+.container-dados.horario .agendamento .date {
+  margin-right: 32px;
+}
+
+.container-dados.horario .agendamento .time {
+  margin-right: 10px;
+}
+
+.container-dados .time input {
+  width: 140px;
+}
+
+.container-dados .color input {
+  color: #c1bccc;
+  margin-top: 8px;
+}
+
+/* footer */
+footer {
+  width: 100%;
+  height: 160px;
+  background: #535971;
+  border-radius: 0 0 20px 20px;
+  display: flex;
+  justify-content: center;
+}
+footer button {
+  margin: auto;
+  width: 608px;
+  height: 56px;
+
+  background: #ff5374;
+  color: white;
+
+  border-radius: 20px;
+  border: 0;
+
+  font-family: "Staatliches", sans-serif;
+  font-size: 20px;
+}
+
+footer button:hover {
+  background: #d34460;
+  color: #dfdcdc;
+}
